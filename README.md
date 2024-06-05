@@ -42,6 +42,16 @@ yarn ios
 
 Go to `repo-interview-main`, run `npm install && npm run start:dev`
 
+## Step 3: Run test
+
+```bash
+# using npm
+npm run test
+
+# OR using Yarn
+yarn test
+```
+
 # Author
 
 - [Daniel Lopez](https://www.linkedin.com/in/danlopezcol)
