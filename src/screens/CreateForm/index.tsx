@@ -102,7 +102,7 @@ const CreateFormScreen = () => {
     }
 
     const resetForm = () => {
-        setFormValues(initialValues)
+        setFormValues(state.editMode ? state.selected as unknown as FormProps : initialValues)
         setErrorsForms(initialValues)
     }
 
